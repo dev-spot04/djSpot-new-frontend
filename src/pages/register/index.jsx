@@ -46,12 +46,12 @@ const Register = () => {
         e.preventDefault()
         try{
            let res = await axios.post("https://api.ampspot.co/createUser",form)
-           if (res.ok) {
+           if (res.data) {
             // Handle success
-            alert("API call successful");
+            alert("Registered successful");
         } else {
             // Handle error
-            alert("API call failed");
+            alert("Error");
         }
         }catch(error){
             console.error("API call error:", error);

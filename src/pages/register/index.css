@@ -219,6 +219,7 @@ body {
   .ready-to-be {
     position: relative;
     line-height: 150%;
+    color: var(--text-color-200);
   }
   .fi-rr-checkbox-parent {
     border-radius: var(--br-mini);
@@ -234,6 +235,7 @@ body {
     position: relative;
     line-height: 150%;
     font-weight: 300;
+    color: var(--text-color-200);
   }
   .fi-rr-checkbox-group,
   .frame-group {
