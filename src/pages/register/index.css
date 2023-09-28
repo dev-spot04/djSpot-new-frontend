@@ -275,6 +275,7 @@ body {
   }
   .joinBtn{
     border-radius: var(--br-3xs);
+    border: none;
     background-color: var(--brand-700-main);
     width: 100%;
     color: #fff;
@@ -283,7 +284,6 @@ body {
     align-self: stretch;
     align-items: flex-start;
     color: var(--brand-50);
-    font-family: var(--font-roboto);
   }
   .join-waitlist-parent {
     width: 55%;
