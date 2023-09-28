@@ -45,7 +45,7 @@ const Register = () => {
     const submitHandler = async (e) => {
         e.preventDefault()
         try{
-           let res = await axios.post("http://localhost:3001/createUser",form)
+           let res = await axios.post("https://api.ampspot.co/createUser",form)
            if (res.ok) {
             // Handle success
             alert("API call successful");
