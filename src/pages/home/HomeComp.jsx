@@ -43,7 +43,7 @@ const HomeComp = () => {
                             </a>
                         </div>
 
-                        <div className="banner_widgets">
+                        {/* <div className="banner_widgets">
                             <article className="banner_widgets_card">
                                 <h2 className="banner_widgets_title">100+</h2>
                                 <p className="banner_widgets_para">Hours Given Back To You</p>
@@ -53,7 +53,7 @@ const HomeComp = () => {
                                 <h2 className="banner_widgets_title">Simple</h2>
                                 <p className="banner_widgets_para">Profile Creation</p>
                             </article>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
