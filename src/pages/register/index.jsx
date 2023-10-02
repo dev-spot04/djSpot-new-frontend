@@ -174,14 +174,14 @@ const Register = () => {
                     <div className="rectangle-div">
                         <div className="frame-div">
                             <img src={Ampspot_reg} className="frame-item" width="200" alt="qrCode" />
-                            <b className="dj-sigma">Log in with QR code </b>
+                            {/* <b className="dj-sigma">Log in with QR code </b>
                             <div className="scan-this-with-container">
                                 <span className="scan-this-with-container1">
                                     <span>Scan this with your </span>
                                     <span className="mobile">mobile </span>
                                     <span>to log in instantly</span>
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
