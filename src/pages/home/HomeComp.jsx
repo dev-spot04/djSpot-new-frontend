@@ -151,12 +151,12 @@ const HomeComp = () => {
         <div className="main_row">
             <div className="virtual_com">
                 {/* <p className="virtual_para">Before joining AMP SPOT</p> */}
-                <img src={virone} alt="" />
+                <img src={virtwo} alt="" />
                 <img className="list_one_virtual" src="./assets/images/thumbnails/List.png" alt="" />
             </div>
             <div className="virtual_com virtaul_two">
                 {/* <p className="virtual_para">After joining AMP SPOT</p> */}
-                <img src={virtwo} alt="" />
+                <img src={virone} alt="" />
                 <img className="list_one_virtual" src="./assets/images/thumbnails/Frame 1000004270.png" alt="" />
             </div>
         </div>
