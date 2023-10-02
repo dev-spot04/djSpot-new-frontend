@@ -3,7 +3,7 @@ import './global.css'
 import './index.css'
 import Frame from '../../assets/img/frame.svg'
 import polygon from '../../assets/img/polygon-1.svg'
-import QrCOde from '../../assets/img/group-1000004212.svg'
+import Ampspot_reg from '../../assets/img/ampspot_reg.png'
 import axios from 'axios'
 
 
@@ -173,7 +173,7 @@ const Register = () => {
                 <div className="login_imageWrapper">
                     <div className="rectangle-div">
                         <div className="frame-div">
-                            <img src={QrCOde} className="frame-item" width="200" alt="qrCode" />
+                            <img src={Ampspot_reg} className="frame-item" width="200" alt="qrCode" />
                             <b className="dj-sigma">Log in with QR code </b>
                             <div className="scan-this-with-container">
                                 <span className="scan-this-with-container1">
