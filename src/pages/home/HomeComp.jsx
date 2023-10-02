@@ -8,8 +8,8 @@ import feature_icn3 from '../../assets/img/images/icons/feature_icn3.png'
 import feature_icn4 from '../../assets/img/images/icons/feature_icn4.png'
 import feature_icn5 from '../../assets/img/images/icons/feature_icn5.png'
 import featurebanner from '../../assets/img/images/thumbnails/feature-banner.png'
-import virone from '../../assets/img/images/thumbnails/virone.png'
-import virtwo from '../../assets/img/images/thumbnails/virtwo.png'
+import virone from '../../assets/img/04.png'
+import virtwo from '../../assets/img/5.png'
 import how_it1 from '../../assets/img/images/icons/how-it-img-1.png'
 import how_it2 from '../../assets/img/images/icons/how-it-img-2.png'
 import how_it3 from '../../assets/img/images/icons/how-it-img-3.png'
@@ -150,12 +150,12 @@ const HomeComp = () => {
         </h2>
         <div className="main_row">
             <div className="virtual_com">
-                <p className="virtual_para">Before joining AMP SPOT</p>
+                {/* <p className="virtual_para">Before joining AMP SPOT</p> */}
                 <img src={virone} alt="" />
                 <img className="list_one_virtual" src="./assets/images/thumbnails/List.png" alt="" />
             </div>
             <div className="virtual_com virtaul_two">
-                <p className="virtual_para">After joining AMP SPOT</p>
+                {/* <p className="virtual_para">After joining AMP SPOT</p> */}
                 <img src={virtwo} alt="" />
                 <img className="list_one_virtual" src="./assets/images/thumbnails/Frame 1000004270.png" alt="" />
             </div>
