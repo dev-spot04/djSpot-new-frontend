@@ -36,10 +36,10 @@ const HomeComp = () => {
                                 fully immerse yourself in the art of being a DJ!</p>
                         </article>
                         <div className="banner-btn-wrapper ">
-                            <a href="/registration" className="theme-btn">Join Beta <span
+                            <a href="/register" className="theme-btn">Join Beta <span
                                     className="d-inline-block ms-2"><img src={arrow_icn}
                                         alt="arrow icon" /></span></a>
-                            <a href="/registration" className="theme-btn theme-btn-secondary">Explore more
+                            <a href="/register" className="theme-btn theme-btn-secondary">Explore more
                             </a>
                         </div>
 
@@ -161,7 +161,7 @@ const HomeComp = () => {
             </div>
         </div>
         <div className="banner-btn-wrapper btn-wrapper-join">
-            <a href="/registration" className="theme-btn">Join Beta <span className="d-inline-block ms-2"><img
+            <a href="/register" className="theme-btn">Join Beta <span className="d-inline-block ms-2"><img
                 src={arrow_icn} alt="arrow icon" /></span></a>
         </div>
     </section>
@@ -177,7 +177,7 @@ const HomeComp = () => {
         </article>
 
         <div className="banner-btn-wrapper btn-wrapper-join">
-            <a href="/registration" className="theme-btn">Join Beta <span className="d-inline-block ms-2"><img
+            <a href="/register" className="theme-btn">Join Beta <span className="d-inline-block ms-2"><img
                         src={arrow_icn} alt="arrow icon" /></span></a>
 
         </div>
@@ -593,8 +593,8 @@ const HomeComp = () => {
                     <p className="cs-para">Our mission is give a perfect automation system and platform for both
                         DJ’s and customers. More to come!</p>
                     <div className="banner-btn-wrapper ">
-                        <a href="/registration" className="theme-btn join-us-btn">Join Us Now</a>
-                        <a href="/registration" className="theme-btn theme-btn-secondary">Sign In
+                        <a href="/register" className="theme-btn join-us-btn">Join Us Now</a>
+                        <a href="/register" className="theme-btn theme-btn-secondary">Sign In
                         </a>
                     </div>
                 </article>
